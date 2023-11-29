@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "expo-chatbot",
-    "slug": "expo-chatbot",
+    "name": "AI-Chatbot",
+    "slug": "ai--chatbot",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4b582f17-8395-499b-a5c2-1de0a35bff23"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/4b582f17-8395-499b-a5c2-1de0a35bff23"
     }
   }
 }
